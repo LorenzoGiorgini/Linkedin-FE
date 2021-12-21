@@ -1,0 +1,25 @@
+.comment-name {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.comment-title {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.comment-box {
+    background-color: #f2f2f2;
+    border-radius: 3px;
+
+}
+
+.comment-image {
+    height: 40px;
+    width: 40px;
+}
+
+.comment-text {
+    font-size: 14px;
+    font-weight:500;
+}

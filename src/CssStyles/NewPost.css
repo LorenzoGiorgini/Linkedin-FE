@@ -1,0 +1,102 @@
+.container-post {
+    color: white;
+    background: white;
+    border-radius: 0.8rem;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.08)!important;
+    color: black!important;
+    margin-top: 16px;
+}
+
+.padding-post {
+    padding: 24px;
+}
+
+
+.trending {
+    font-size: 12px;
+}
+
+.trending-text {
+    margin-left: 5px;
+}
+
+.trending-text:hover {
+    text-decoration: underline;
+}
+
+.feedpost-section {
+    width: 100%;
+}
+
+.feedpost-section .post-form{
+    border-radius: 50px;
+    width: 100%;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid rgb(185, 185, 185);
+    color: rgb(119, 118, 118);
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.feedpost-section .post-form:hover {
+   background-color: rgba(0,0,0,0.1);
+
+}
+
+
+.feedpost-section .post-form, .profile-img-container {      
+    height: 45px;
+}
+
+.feedpost-section .fas, .feedpost-section .fab {
+    font-size: 20px;
+}
+
+.feedpost-section .fa-image {
+    color: blue;
+}
+
+.feedpost-section .fa-youtube {
+    color: green;
+}
+
+.feedpost-section .fa-calendar-alt {
+    color: orange;
+}
+
+.feedpost-section .fa-elementor {
+    color: pink;
+}
+
+.feedpost-section .feedpost-icons {
+    font-size: 0.8em;
+    font-weight: 700;
+    color: rgba(0,0,0,0.5);
+}
+
+.btn-feed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 45px;
+}
+
+.btn-feed-big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 45px;
+}
+
+.btn-feed-big:hover {
+    background: rgb(218, 218, 218);
+    border-radius: 8px;
+}
+
+
+.btn-feed:hover {
+    background: rgb(218, 218, 218);
+    border-radius: 8px;
+}
