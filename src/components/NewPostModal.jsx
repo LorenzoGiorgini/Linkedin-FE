@@ -100,6 +100,7 @@ const NewPostModal = ({ fetchPosts, posts, profile }) => {
                 rows={5}
                 onChange={(e) => handleInput("text", e.target.value)}
                 type="text"
+                style={{border: "none" , outline: "none"}}
                 placeholder="What do you want to talk about?"
               />
             </Form.Group>
