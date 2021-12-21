@@ -61,24 +61,25 @@ const Profile = (props) => {
               posts={posts}
               fetchPosts={fetchPosts}
             />
-            <div className="d-xs-block d-sm-none d-md-none d-lg-none">
+            <div className="d-xs-block d-sm-block d-md-block d-lg-none">
               <RightSideBar />
               <SmallFooter />
             </div>
-          </Col>
+            </Col>
 
           <Col
             md={4}
-            className="d-none d-xs-none d-sm-none d-md-none d-lg-block"
-            style={{ height: "100%" }}
+            className="d-none d-xs-none d-sm-none d-md-none d-lg-block h-100"
           >
             <RightSideBar />
             <SmallFooter />
           </Col>
+          
         </Row>
       </Container>
     </>
   );
 };
+
 
 export default Profile;

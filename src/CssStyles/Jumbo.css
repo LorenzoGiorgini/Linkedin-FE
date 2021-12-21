@@ -109,6 +109,27 @@ h1 , h2 , h3 {
     color: white;
 }
 
+.button-inerit {
+    border-radius: 1.6rem;
+    background: #fff;
+    height: 32px;
+    width: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    cursor: pointer;
+    overflow: hidden;
+    margin-right: 8px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #0a66c2;
+}
+
+.button-inerit:hover {
+    opacity: 0.7;
+}
+
 .button-blue:hover {
     opacity: 0.7;
 }

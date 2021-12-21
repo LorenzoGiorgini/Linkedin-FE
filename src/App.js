@@ -3,6 +3,7 @@ import Profile from "./views/Profile";
 import Home from "./views/Home"
 
 import "./CssStyles/Jumbo.css";
+import "./CssStyles/imageModal.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
 

@@ -1,0 +1,15 @@
+.image-modal {
+    height: 250px!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload-file {
+    display: none;
+}
+
+
+.modal-content {
+    width: 600px!important;
+}
